@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'MacklinDisplayBold' ;
+    src: url(/fuentes/MacklinDisplay-Bold.otf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'MacklinDisplayLight' ;
+    src: url(/fuentes/MacklinDisplay-ExtraLightIt.otf);
+    font-weight: extralight;
+    font-style: extralight;
+}
+
+li {
+    font-family: 'MacklinDisplayLight';
+    font-size: 40px;
+    
+}
+footer{
+    font-family: 'MacklinDisplayBold';
+}
+ 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(191 186 164);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 54px 10%;
+}
+.header .menu .logo img{
+    height: 70px;
+    width: auto;
+}
+.header .menu  .navbar ul li{
+display: inline-block;
+padding: 0 40px;
+}
+.header .menu .navbar a{
+    color: rgb(20, 20, 20);
+}
+
+footer{
+ background-color: rgb(191 186 164);
+ align-items: end;
+ }
+
+section img{
+   width: 1200px; display: flex;
+    align-items: center;
+    padding: 20px;
+}
