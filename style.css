@@ -125,6 +125,10 @@ nav ul li ul li:hover {
 .footer-galeria{
     width: 100%;
     text-align: center;
+    font-size: 30px;
+    font-family: 'MacklinDisplayLight';
+    height: 100px;
+    padding: 30px;
     
 
 }
