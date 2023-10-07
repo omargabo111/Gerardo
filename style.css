@@ -58,6 +58,7 @@ header {
 .logo img{
     height: 70px;
     width: auto;
+    margin-bottom: 20px;
 }
 .navbar > ul > li{
 display: inline-block;
@@ -84,6 +85,11 @@ section img{
    width: 1200px; display: flex;
     align-items: center;
     padding: 20px;
+}
+
+.footer-index{
+    text-align: end;
+    margin-right: 30px;
 }
 footer .footerInspiracion{
     display: inline-block;
@@ -230,6 +236,7 @@ section .contatctoImg{
 
  .contacto{
     display: flex;
+
  }
  .formulario{
     background-color: rgb(255, 203, 184);
@@ -257,4 +264,31 @@ section .contatctoImg{
  background-color: rgb(191 186 164);
  height:200px;
  display: flex;
+}
+
+.footer-siguenos{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'MacklinDisplayLight';
+    height: 100%;
+    padding: 30px;
+}
+
+.iconos{
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+}
+.iconos>h2{
+    margin-right: 20px;
+    font-family: 'MacklinDisplayBold';
+}
+.iconos >a >img{
+    width: 100px;
+    margin-left: -30px;
+}
+
+.navbar>ul>img{
+    height: 40px;
 }
