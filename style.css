@@ -91,17 +91,18 @@ section img{
     text-align: end;
     margin-right: 30px;
 }
-footer .footerInspiracion{
-    display: inline-block;
+.footerInspiracion{
+    display: flex;
     height: 100% px;
     padding: 10px 20px 20px 10px;
-     font-size: 22px;
+    font-size: 22px;
     font-family: 'MacklinDisplayLight';
-    
-
+}
+.footerInspiracion>p{
+    padding: 20px;
 }
 
-footer .footerTrabajo {
+.footerTrabajo {
     text-align: center;
     font-size: 30px;
     font-family: 'MacklinDisplayLight';
@@ -140,9 +141,14 @@ nav ul li ul li:hover {
     align-items: center;
 }
 
+.menuGaleria{
+     align-items: center;
+    justify-content: center;
+}
 .menuGaleria img{
     width: 300px;
     display: inline-block;
+   
 }
 
 .footer-galeria{
